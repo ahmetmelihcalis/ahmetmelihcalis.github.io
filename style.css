@@ -1,0 +1,52 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #ADD8E6, #191970); /* Açık ve koyu mavi geçişi */
+    color: #fff;
+    text-align: center;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.links {
+    margin-top: 30px;
+}
+
+.links a {
+    display: block;
+    margin: 15px 0;
+    padding: 12px 25px;
+    background-color: #007BFF; /* Mavi buton rengi */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.links a:hover {
+    background-color: #0056b3; /* Hover efekti */
+}
+
+/* Mobil Uyumluluk */
+@media (max-width: 600px) {
+    .container {
+        padding: 30px;
+    }
+
+    .links a {
+        padding: 10px 20px;
+    }
+}
