@@ -5,7 +5,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(135deg, #ADD8E6, #191970); /* Açık ve koyu mavi geçişi */
+    background: linear-gradient(135deg, #ADD8E6, #191970); 
     color: #fff;
     text-align: center;
 }
@@ -29,7 +29,7 @@ h1 {
     display: block;
     margin: 15px 0;
     padding: 12px 25px;
-    background-color: #007BFF; /* Mavi buton rengi */
+    background-color: #007BFF; 
     color: #fff;
     text-decoration: none;
     border-radius: 8px;
@@ -37,7 +37,7 @@ h1 {
 }
 
 .links a:hover {
-    background-color: #0056b3; /* Hover efekti */
+    background-color: #0056b3; 
 }
 
 /* Mobil Uyumluluk */
